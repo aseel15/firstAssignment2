@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">firstAssignment2</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="launch">Launch</string>
+    <string name="dinner">Dinner</string>
+    <string name="choose_your_food">Choose Food</string>
+    <string name="meal_type">Meal Type</string>
+    <string name="diary">Diary</string>
+    <string name="number">Number</string>
+    <string name="done">Done</string>
+    <string name="add_food">Add Food</string>
+    <string name="welcome_to_my_app">Welcome to Save Health</string>
+    <string name="name">Name</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="next">Next</string>
+</resources>
