@@ -14,13 +14,13 @@ public class MainActivity extends AppCompatActivity {
         Thread thread = new Thread() {
             @Override
             public void run() {
-               // int n = 0;
+
                 try {
                     for(int n=0;n<2500;n+=100){
-                   // while (n < 2800) {
+
 
                         sleep(50);
-                       // n += 100;
+
                     }
                 } catch (InterruptedException e) {
                     e.printStackTrace();

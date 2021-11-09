@@ -73,23 +73,9 @@ public class MainActivity2 extends AppCompatActivity {
 
         String item= spinner.getSelectedItem().toString();
         intent.putExtra("data",item);
-        //startActivityForResult(intent,1);
         startActivity(intent);
     }
 
 
-  /*  @Override
-    public void onActivityResult(int requestCode, int resultCode,  Intent data) {
 
-        //super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1 && resultCode == RESULT_OK) {
-            String n=data.getStringExtra("dataM");
-            Log.i("MyApp", "res is "+n);
-           /* ListView list = findViewById(R.id.listBreakFast);
-            ArrayList<String> arr = new ArrayList<>();
-            arr.add(data.getData().toString());
-            ArrayAdapter<String>arrayAdapter=new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, arr);
-            list.setAdapter(arrayAdapter);
-        }
-    }*/
 }
